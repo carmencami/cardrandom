@@ -1,1 +1,34 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+body {
+  background-color: green;
+  margin-top: 50px;
+}
+#fullCard {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 450px;
+}
+.palo {
+  height: 40%;
+  width: 100%;
+  padding-right: 30px;
+  text-align: left;
+  font-size: 80px;
+}
+.numero {
+  height: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+}
+.palo2 {
+  height: 20%;
+  width: 100%;
+  padding-right: 30px;
+  text-align: right;
+  font-size: 80px;
+  transform: scale(1, -1);
+}
